@@ -1,68 +1,8 @@
-Instructions
-Create a script that loops through all the stocks for one year and outputs the following information:
-
-The ticker symbol
-
-Yearly change from the opening price at the beginning of a given year to the closing price at the end of that year.
-
-The percentage change from the opening price at the beginning of a given year to the closing price at the end of that year.
-
-The total stock volume of the stock. The result should match the following image:
-Add functionality to your script to return the stock with the "Greatest % increase", "Greatest % decrease", and "Greatest total volume". The solution should match the following image:
-Make the appropriate adjustments to your VBA script to enable it to run on every worksheet (that is, every year) at once.
-
-NOTE
-Make sure to use conditional formatting that will highlight positive change in green and negative change in red.
-
-Other Considerations
-Use the sheet alphabetical_testing.xlsx while developing your code. This dataset is smaller and will allow you to test faster. Your code should run on this file in under 3 to 5 minutes.
-
-Make sure that the script acts the same on every sheet. The joy of VBA is that it takes the tediousness out of repetitive tasks with the click of a button.
-
-Requirements
-Retrieval of Data (20 points)
-The script loops through one year of stock data and reads/ stores all of the following values from each row:
-
-ticker symbol (5 points)
-
-volume of stock (5 points)
-
-open price (5 points)
-
-close price (5 points)
-
-Column Creation (10 points)
-On the same worksheet as the raw data, or on a new worksheet all columns were correctly created for:
-
-ticker symbol (2.5 points)
-
-total stock volume (2.5 points)
-
-yearly change ($) (2.5 points)
-
-percent change (2.5 points)
-
-Conditional Formatting (20 points)
-Conditional formatting is applied correctly and appropriately to the yearly change column (10 points)
-
-Conditional formatting is applied correctly and appropriately to the percent change column (10 points)
-
-Calculated Values (15 points)
-All three of the following values are calculated correctly and displayed in the output:
-
-Greatest % Increase (5 points)
-
-Greatest % Decrease (5 points)
-
-Greatest Total Volume (5 points)
-
-Looping Across Worksheet (20 points)
-The VBA script can run on all sheets successfully.
-GitHub/GitLab Submission (15 points)
-All three of the following are uploaded to GitHub/GitLab:
-
-Screenshots of the results (5 points)
-
-Separate VBA script files (5 points)
-
-README file (5 points)
+Demonstrating notable progression in honing programming and Excel proficiency. Recent task involves adept utilization of VBA scripting for an exhaustive analysis of synthesized stock market data. Crafting a script that methodically iterates across all stock entries within a year-long scope, yielding the ensuing insights:
+Proficiently extracting and analyzing stock market data, including:
+Identification of stock ticker symbols.
+Calculation of annual changes from opening to closing prices within a specified year.
+Determination of percentage changes in opening to closing prices within a designated year.
+Quantification of total stock volume for each stock entry.
+Implemented advanced script functionalities to identify stocks with the "Greatest % Increase," "Greatest % Decrease," and "Greatest Total Volume."
+Enhanced the effectiveness of the VBA script by configuring it to seamlessly execute across all worksheets, encompassing each year's data in a unified operation.
